@@ -32,7 +32,6 @@ public class work06 {
         // true为加密，false为解密
         System.out.println(pwd(text, n, flag));
         //System.out.println(pwd(text, n, false));
-
     }
 
     public static String pwd(String text, int n, boolean flag) {
