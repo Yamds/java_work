@@ -14,7 +14,6 @@ package cafe.yamds.work0329;
 //密文：WKH TXLFN EURZQ IRA MXPSV RYHU WKH ODCB GRJ
 
 
-
 import java.util.Scanner;
 
 public class work06 {
