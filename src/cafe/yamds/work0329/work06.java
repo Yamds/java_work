@@ -13,6 +13,8 @@ package cafe.yamds.work0329;
 //明文：THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
 //密文：WKH TXLFN EURZQ IRA MXPSV RYHU WKH ODCB GRJ
 
+
+
 import java.util.Scanner;
 
 public class work06 {
