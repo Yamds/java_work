@@ -1,6 +1,6 @@
 package edu.kjxy.demo0419;
 
-public class Demo01 {
+public class demo01 {
 	public static void main(String[] args) {
 		//Person p = new Person();
 		
