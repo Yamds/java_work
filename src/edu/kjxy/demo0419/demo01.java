@@ -1,9 +1,10 @@
 package edu.kjxy.demo0419;
 
-public class demo01 {
-    public static void main(String[] args) {
-        Computer c = new Computer("c001", "鑱旀兂", "Java瀛︿範璧勬枡");
-        Phone p = new Phone("p001", "鍗庝负");
-        c.copy(p);
-    }
+public class Demo01 {
+	public static void main(String[] args) {
+		//Person p = new Person();
+		
+		Driver d = new Driver("322345", "小张", "200-09-09", "男", "322345");
+		d.work("送纯净水");
+	}
 }

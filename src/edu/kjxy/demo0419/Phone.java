@@ -1,29 +1,31 @@
 package edu.kjxy.demo0419;
 
 public class Phone implements USB{
-    private String pid;
-    private String brand;
+	private String pid;
+	private String brand;
+	
+	public Phone() {
+		super();
+	}
+	
+	public Phone(String pid, String brand) {
+		super();
+		this.pid = pid;
+		this.brand = brand;
+	}
 
-    public Phone() {
-    }
-
-    public Phone(String pid, String brand) {
-        this.pid = pid;
-        this.brand = brand;
-    }
-
-    @Override
-    public void conn() {
-        System.out.println(pid + brand + "杩炴帴鎴愬姛");
-    }
-
-    @Override
-    public void transfer(String data) {
-        System.out.println(pid + brand + "浼犺緭鏁版嵁: " + data);
-    }
-
-    @Override
-    public void disconn() {
-        System.out.println(pid + brand + "鏂紑鎴愬姛");
-    }
+	@Override
+	public void conn() {
+		System.out.println(pid+brand+"连接成功");
+	}
+	
+	@Override
+	public void transfer(String data) {
+		System.out.println(pid+brand+"传输数据：" + data);
+	}
+	
+	@Override
+	public void disconn() {
+		System.out.println(pid+brand+"断开成功");
+	}
 }
