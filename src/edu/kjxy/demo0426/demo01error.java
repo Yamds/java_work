@@ -11,6 +11,7 @@ public class demo01error {
             System.out.println(ar[3]);
         }catch(ArithmeticException ex){
             System.out.println("算术异常发生了.");
+            System.err.println("算术");
             ex.printStackTrace();
         }catch(ArrayIndexOutOfBoundsException ex){
             System.out.println("数组越界异常发生了.");
